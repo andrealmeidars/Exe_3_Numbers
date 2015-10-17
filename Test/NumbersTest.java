@@ -14,9 +14,11 @@ public class NumbersTest {
 
     }
 
+    
+
     @Test
-    public void return0With2Numbers(){
-        assertThat(numbers.getSumNumbers(1,2), is(0));
+    public void returnSumWith2Numbers(){
+        assertThat(numbers.getSumNumbers(1,2), is(3));
     }
 
 

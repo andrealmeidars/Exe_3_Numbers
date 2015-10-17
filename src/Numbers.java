@@ -9,7 +9,7 @@ public class Numbers {
 
     public int getSumNumbers(int numberA, int numberB){
 
-        return 0;
+        return numberA + numberB;
 
     }
 }
