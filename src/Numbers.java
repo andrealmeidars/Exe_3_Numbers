@@ -9,6 +9,10 @@ public class Numbers {
 
     public int getSumNumbers(int numberA, int numberB){
 
+        if (numberA == numberB){
+            return ((numberA + numberB) * 2);
+        }
+
         return numberA + numberB;
 
     }

@@ -14,13 +14,18 @@ public class NumbersTest {
 
     }
 
-    
+
 
     @Test
     public void returnSumWith2Numbers(){
         assertThat(numbers.getSumNumbers(1,2), is(3));
     }
 
+
+    @Test
+    public void returnDoubleValueWith2EqualsNumbers(){
+        assertThat(numbers.getSumNumbers(2,2), is(8));
+    }
 
 
 
