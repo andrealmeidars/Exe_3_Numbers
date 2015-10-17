@@ -27,6 +27,11 @@ public class NumbersTest {
         assertThat(numbers.getSumNumbers(2,2), is(8));
     }
 
+    @Test
+    public void showNegativeNumberIfAnyNumberIsSmaller1(){
+        assertThat(numbers.getSumNumbers(1,-2), is(-1));
+    }
+
 
 
 }
